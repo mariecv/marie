@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Quicksand');
+
+html {
+  font-size: 1em;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Quicksand', sans-serif;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+  text-align: center;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+
+header  {
+  background: rgb(1, 1, 1);
+  padding: 20px;
+  text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+  }
+
+header li {
+    display: inline-block;
+    border: 1px solid #ffffff;
+  }
+
+header a {
+    text-decoration: none;
+    color : #ffffff;
+    padding: 8px;
+    display: block;
+  }
+
+.hero {
+    background: rgb(255, 235, 71) url('esop58') top center no-repeat;
+    min-height: 20vh;
+    position: inherit;
+    background-attachment: fixed;
+
+  }
+
+  section {
+    min-height: 90vh;
+    padding: 42px;
+  }
+
+    .odd {
+      background: rgb(252, 252, 252);
+    }
+
+    .even {
+      background: rgb(240, 240, 240);
+    }
+
+    .image-block {
+      max-width: 240px;
+      border: 12px solid #000;
+    }
+
+    .image-block img {
+      width : 100%;
+    display:block;
+    }
+
+    figcaption {
+      font-family: 'Fahkwang', serif;
+      font-style: italic;
+
+    }
+
+    footer {
+      min-height: 600px;
+      background: #000;
+      color : #fff;
+    }
